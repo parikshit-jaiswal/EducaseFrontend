@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
-import AccountSetting from "./pages/AccountSettingPage.js"
-import LandingPage from "./pages/LandingPage.js"
-import LoginPage from "./pages/loginPage.js"
-import RegisterPage from "./pages/RegisterPage.js"
+import AccountSetting from "./pages/AccountSettingPage.jsx"
+import LandingPage from "./pages/LandingPage.jsx"
+import LoginPage from "./pages/loginPage.jsx"
+import RegisterPage from "./pages/RegisterPage.jsx"
 import { Toaster } from "@/components/ui/sonner"
 
 function App() {
