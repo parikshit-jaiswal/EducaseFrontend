@@ -64,7 +64,7 @@ function RegisterPage() {
     setLoading(true);
 
     try {
-      const response = await axios.post("http://localhost:8080/users/register", formData);
+      const response = await axios.post("https://educasebackend-y3pb.onrender.com/users/register", formData);
       console.log("Success:", response.data);
       toast.success("Registration successful");
       navigate("/login");

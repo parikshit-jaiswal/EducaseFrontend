@@ -20,7 +20,7 @@ function LoginPage() {
         setLoading(true);
 
         try {
-            const response = await axios.post("http://localhost:8080/users/login", formData);
+            const response = await axios.post("https://educasebackend-y3pb.onrender.com/users/login", formData);
             console.log("Login Success:", response.data);
             toast.success("Login successful");
             localStorage.setItem("user", JSON.stringify(response.data.data.user));
